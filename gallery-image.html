@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>imgage</title>
+</head>
+<body>
+    <!-- Global conatain -->
+     <div class="flex items-center justify-center bg-gray-500 min-h-screen">
+      <!-- Card Container -->
+       <div class="bg-slate-50 p-6 m-3 space-y-10 rounded-lg">
+         <!-- Menu Contain -->
+          <div class="flex flex-col md:flex-row items-center justify-center space-y-3 md:space-y-0 md:space-x-8 md:mb-24 md:justify-end">
+            <!-- Menu Items -->
+             <div class="group">
+               <a class="text-xl" href="#">Tea</a>
+               <div class="mx-2 mt-2 border-b-2 border-black opacity-0 group-hover:opacity-100 bg-opacity-40"></div>
+             </div>
+             <div class="group">
+               <a class="text-xl" href="#">Coffe</a>
+               <div class="mx-2 mt-2 border-b-2 border-black opacity-0 group-hover:opacity-100 bg-opacity-40"></div>
+             </div>
+             <div class="group">
+               <a class="text-xl" href="#">Milk</a>
+               <div class="mx-2 mt-2 border-b-2 border-black opacity-0 group-hover:opacity-100 bg-opacity-40"></div>
+             </div>
+          </div><!--Close menu contain-->
+          
+         <!-- Search-->
+          <div class="flex flex-col md:flex-row space-y-5 justify-between md:space-y-0">
+            <!-- Input and SVG -->
+             <div class="flex justify-between border-b">
+               <input type="text" placeholder="Search" 
+               class="ml-6 border-none placeholder:font-thin rounded-lg md:w-80 focus:outline-none" >
+               <button>
+                  <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-8 text-gray-300 duration-200 hover:scale-110"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <circle cx="10" cy="10" r="7" />
+                <line x1="21" y1="21" x2="15" y2="15" />
+              </svg>
+               </button>
+             </div><!--close input and svg-->
+             <!-- Upload Button -->
+              <button class="py-3 px-14 bg-blue-700 border border-blue-700 duration-200 text-white rounded-lg
+              hover:bg-white hover:text-black">Upload</button>
+          </div><!--close search -->
+
+          <!-- Gallery Container -->
+           <div class="grid gap-4 md:grid-cols-3">
+            <!-- Image 1-->
+            <div class="relative group">
+               <img src="./coffe/milk latte.jpg" alt="" class="w-72">
+               <div class="absolute left-0 right-0 bottom-0 bg-black text-white p-2 px-4 opacity-0 
+                group-hover:opacity-100 bg-opacity-40">
+                  <div class="flex justify-between">
+                     <div class="font-normal">
+                        <p>milk latte</p>
+                     </div>
+                     <div class="flex items-center">
+                        <img src="./bookmark-50.png" alt="" class="w-8">
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- Image 2-->
+            <div class="relative group">
+               <img src="./coffe/doice latte.png" alt="" class="w-72">
+               <div class="absolute left-0 right-0 bottom-0 bg-black text-white p-2 px-4 opacity-0 
+                group-hover:opacity-100 bg-opacity-40">
+                  <div class="flex justify-between">
+                     <div class="font-normal">
+                        <p>doice latte</p>
+                     </div>
+                     <div class="flex items-center">
+                        <img src="./bookmark-50.png" alt="" class="w-8">
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- Image 3-->
+            <div class="relative group">
+               <img src="./coffe/coffee smoothie.jpg" alt="" class="w-72">
+               <div class="absolute left-0 right-0 bottom-0 bg-black text-white p-2 px-4 opacity-0 
+                group-hover:opacity-100 bg-opacity-40">
+                  <div class="flex justify-between">
+                     <div class="font-normal">
+                        <p>coffee smoothie</p>
+                     </div>
+                     <div class="flex items-center">
+                        <img src="./bookmark-50.png" alt="" class="w-8">
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- Image 4-->
+            <div class="relative group">
+               <img src="./coffe/f.png" alt="" class="w-72">
+               <div class="absolute left-0 right-0 bottom-0 bg-black text-white p-2 px-4 opacity-0 
+                group-hover:opacity-100 bg-opacity-40">
+                  <div class="flex justify-between">
+                     <div class="font-normal">
+                        <p>Milk Latte</p>
+                     </div>
+                     <div class="flex items-center">
+                        <img src="./bookmark-50.png" alt="" class="w-8">
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- Image 5-->
+            <div class="relative group">
+               <img src="https://img.79plus.co.kr/megahp/manager/upload/menu/20240610132459_1717993499610_KiXcTR2q5P.jpg" alt="" class="w-72">
+               <div class="absolute left-0 right-0 bottom-0 bg-black text-white p-2 px-4 opacity-0 
+                group-hover:opacity-100 bg-opacity-40">
+                  <div class="flex justify-between">
+                     <div class="font-normal">
+                        <p>Milk Latte</p>
+                     </div>
+                     <div class="flex items-center">
+                        <img src="./bookmark-50.png" alt="" class="w-8">
+                     </div>
+                  </div>
+               </div>
+            </div>
+           </div><!--close gallery image-->
+       </div><!--close Card Container-->
+     </div>
+</body>
+</html>
